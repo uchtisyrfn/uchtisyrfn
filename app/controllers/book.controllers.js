@@ -1,5 +1,5 @@
-//app/controllers/book.controller.js
-const Book=require("../models/book.models");
+//app/controllers/book.controllers.js
+const Book = require("../models/book.models");
 
 //Mengambil semua data buku 
 exports.findAll=(req,res)=>{
